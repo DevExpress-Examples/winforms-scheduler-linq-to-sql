@@ -12,7 +12,7 @@ Namespace XtraScheduler_LINQ
             ribbonControl1.SelectedPage = LinqToSqlRibbonPage1
         End Sub
 
-        Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+        Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
             Me.schedulerControl1.Start = Date.Today
             SuscribeSchedulerEvents()
 

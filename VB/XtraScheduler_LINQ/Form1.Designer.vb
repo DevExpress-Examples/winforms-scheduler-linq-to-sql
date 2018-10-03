@@ -28,7 +28,7 @@
             Dim timeRuler2 As New DevExpress.XtraScheduler.TimeRuler()
             Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(Form1))
             Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
-            Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
+            Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerDataStorage(Me.components)
             Me.ribbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
             Me.openScheduleItem1 = New DevExpress.XtraScheduler.UI.OpenScheduleItem()
             Me.saveScheduleItem1 = New DevExpress.XtraScheduler.UI.SaveScheduleItem()
@@ -102,7 +102,7 @@
             ' 
             ' schedulerControl1
             ' 
-            Me.schedulerControl1.Storage = Me.schedulerStorage1
+            Me.schedulerControl1.DataStorage = Me.schedulerStorage1
             Me.schedulerControl1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.schedulerControl1.GroupType = DevExpress.XtraScheduler.SchedulerGroupType.Resource
             Me.schedulerControl1.Location = New System.Drawing.Point(0, 143)
@@ -564,7 +564,7 @@
         #End Region
 
         Private schedulerControl1 As DevExpress.XtraScheduler.SchedulerControl
-        Private schedulerStorage1 As DevExpress.XtraScheduler.SchedulerStorage
+        Private schedulerStorage1 As DevExpress.XtraScheduler.SchedulerDataStorage
         Private ribbonControl1 As DevExpress.XtraBars.Ribbon.RibbonControl
         Private openScheduleItem1 As DevExpress.XtraScheduler.UI.OpenScheduleItem
         Private saveScheduleItem1 As DevExpress.XtraScheduler.UI.SaveScheduleItem

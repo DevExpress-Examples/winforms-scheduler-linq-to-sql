@@ -22,8 +22,8 @@ Namespace XtraScheduler_LINQ
             Me.schedulerStorage1.Resources.DataSource = context.DBResources
         End Sub
         Private Sub InitializeMappings()
-            Dim aptStorage As AppointmentStorage = Me.schedulerStorage1.Appointments
-            Dim resStorage As ResourceStorage = Me.schedulerStorage1.Resources
+            Dim aptStorage As AppointmentDataStorage = Me.schedulerStorage1.Appointments
+            Dim resStorage As ResourceDataStorage = Me.schedulerStorage1.Resources
 
             aptStorage.Mappings.AllDay = "AllDay"
             aptStorage.Mappings.Description = "Description"

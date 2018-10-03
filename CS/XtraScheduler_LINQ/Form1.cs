@@ -20,8 +20,8 @@ namespace XtraScheduler_LINQ {
             this.schedulerStorage1.Resources.DataSource = context.DBResources;
         }
         void InitializeMappings() {
-            AppointmentStorage aptStorage = this.schedulerStorage1.Appointments;
-            ResourceStorage resStorage = this.schedulerStorage1.Resources;
+            AppointmentDataStorage aptStorage = this.schedulerStorage1.Appointments;
+            ResourceDataStorage resStorage = this.schedulerStorage1.Resources;
 
             aptStorage.Mappings.AllDay = "AllDay";
             aptStorage.Mappings.Description = "Description";

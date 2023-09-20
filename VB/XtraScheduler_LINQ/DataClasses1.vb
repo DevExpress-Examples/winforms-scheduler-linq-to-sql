@@ -1,5 +1,5 @@
-﻿Namespace XtraScheduler_LINQ
+Namespace XtraScheduler_LINQ
 
-    Partial Public Class LINQDataContext
+    Partial Class LINQDataContext
     End Class
 End Namespace

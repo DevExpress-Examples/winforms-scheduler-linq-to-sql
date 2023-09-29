@@ -5,11 +5,11 @@
 <!-- default badges end -->
 # WinForms Scheduler - Bind to data using LINQ to SQL
 
-This example demonstrates how to bind the WinForms Scheduler to SQL server using LINQ to SQL data model.
+This example demonstrates how to bind the WinForms Scheduler to a SQL server using the LINQ to SQL data model.
 
 The Scheduler control does not automatically respond to data modifications in the LINQ data source because the Scheduler control is bound to a copy of data supplied by `LINQDataContext`. The `LINQDataContext` does not implement a list change notification mechanism. The Scheduler control can only trace changes originated from the actions performed by the Scheduler itself. Click the **Refresh** button to reload data.
 
-To run the example, you need a database at the local SQL server. The script used to create the XtraCars database is included in the *XtraCars.sql* file. Create the database and change the connection string in the *app.config* file if needed.
+To run the example, you need a database on the local SQL server. The script used to create the XtraCars database is included in the *XtraCars.sql* file. Create the database and change the connection string in the *app.config* file if needed.
 
 
 ## Documentation

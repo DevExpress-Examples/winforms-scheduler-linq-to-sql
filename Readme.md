@@ -18,7 +18,7 @@ To run the example, you need a database on the local SQL server. The script used
 * [Binding to LINQ to SQL Classes](https://docs.devexpress.com/WindowsForms/4057/common-features/data-binding/binding-to-linq-to-sql-classes)
 * [Data Sources - WinForms Scheduler](https://docs.devexpress.com/WindowsForms/3289/controls-and-libraries/scheduler/data-binding/data-sources)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-scheduler-linq-to-sql&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-scheduler-linq-to-sql&~~~was_helpful=no)
 
